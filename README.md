@@ -16,11 +16,12 @@ $ cd ./docker/
 $ # build and run
 $ ./test_image.sh
 ```
-or you can pull image from https://hub.docker.com/r/loftkun/basic-ubuntu/
+or you can pull image from https://hub.docker.com/r/loftkun/basic-ubuntu/  
+`docker pull loftkun/basic-ubuntu`
 
 ### for Kubernetes
 #### Prerequisites
-- kuberctl ( tested by v1.9.2 )
+- kubectl ( tested by v1.9.2 )
 
 #### example
 ```bash
