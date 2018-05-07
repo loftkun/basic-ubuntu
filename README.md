@@ -18,7 +18,7 @@ $ ./test_image.sh
 ```
 or you can pull image from https://hub.docker.com/r/loftkun/basic-ubuntu/
 
-### Kubernetes
+### for Kubernetes
 ### Prerequisites
 - kuberctl ( tested by v1.9.2 )
 
