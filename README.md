@@ -16,6 +16,7 @@ $ cd ./docker/
 $ # build and run
 $ ./test_image.sh
 ```
+or you can pull image from https://hub.docker.com/r/loftkun/basic-ubuntu/
 
 ### Kubernetes
 ### Prerequisites
