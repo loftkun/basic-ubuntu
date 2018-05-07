@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: basic-ubuntu
+  labels:
+    app: basic-ubuntu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: basic-ubuntu
+  template:
+    metadata:
+      labels:
+        app: basic-ubuntu
+    spec:
+      containers:
+      - name: basic-ubuntu
+        image: loftkun/basic-ubuntu:latest
+#        ports:
+#        - containerPort: 80
