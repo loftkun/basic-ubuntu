@@ -13,9 +13,9 @@ RUN apt-get install -y jq
 # for network tools
 # ping
 RUN apt-get install -y iputils-ping
-# ifconfig
+# ifconfig, netstat
 RUN apt-get install -y net-tools
-# netstat
+# nslookup
 RUN apt-get install -y dnsutils
 # netcat
 RUN apt-get install -y netcat
